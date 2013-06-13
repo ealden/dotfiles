@@ -1,0 +1,7 @@
+[user]
+	name = Ealden Esto E. Escañan
+	email = ealden@escanan.com
+[credential]
+	helper = osxkeychain
+[color]
+	ui = true
