@@ -1,5 +1,5 @@
 task :setup do
-  ['bashrc'].each do |dotfile|
+  ['bashrc', 'bash_profile'].each do |dotfile|
     create_symlink dotfile
   end
 end
