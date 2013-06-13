@@ -1,22 +1,10 @@
 task :setup do
-  ['bashrc', 'bash_profile', 'gitconfig'].each do |dotfile|
-    create_symlink dotfile
+  ['bashrc', 'bash_profile', 'gitconfig'].each do |file|
+    symlink = File.expand_path "~/.#{file}"
+    dotfile = File.expand_path file
+
+    FileUtils.ln_sf dotfile, symlink
   end
 end
 
 task :default => :setup
-
-def create_symlink dotfile
-  symlink = "~/.#{dotfile}"
-
-  symlink_path = File.expand_path symlink
-  dotfile_path = File.expand_path dotfile
-
-  if File.exists? symlink_path
-    puts "Replaced #{symlink} with my version."
-
-    File.delete symlink_path
-  end
-
-  File.symlink dotfile_path, symlink_path
-end
