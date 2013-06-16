@@ -1,3 +1,9 @@
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+
+export PS1='\w$(__git_ps1 " (%s)")\$ '
+
 alias ls='ls -hF'
 alias ll='ls -l'
 
