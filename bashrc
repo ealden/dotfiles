@@ -11,3 +11,5 @@ set -o vi
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+
+export GROOVY_HOME='/usr/local/opt/groovy/libexec'
