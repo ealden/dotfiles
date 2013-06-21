@@ -9,6 +9,8 @@ alias ll='ls -l'
 
 set -o vi
 
+export PATH=/usr/local/bin:$PATH
+
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
