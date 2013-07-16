@@ -7,7 +7,7 @@ export PS1='\w$(__git_ps1 " (%s)")\$ '
 alias ls='ls -hF'
 alias ll='ls -l'
 
-set -o vi
+set -o emacs 
 
 export PATH=/usr/local/bin:$PATH
 
