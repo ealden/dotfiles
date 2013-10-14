@@ -4,7 +4,7 @@ fi
 
 export PS1='\w$(__git_ps1 " (%s)")\$ '
 
-alias ls='ls -hF'
+alias ls='ls -hFG'
 alias ll='ls -l'
 
 set -o emacs 
