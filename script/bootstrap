@@ -32,6 +32,7 @@ echo "  + Installing PHP packages"
 #brew tap josegonzalez/php
 #brew tap homebrew/dupes
 brew install php54
+brew install php54-mcrypt
 brew install phpunit
 brew install composer
 
