@@ -29,6 +29,7 @@ brew install hub
 brew install macvim
 brew install node
 brew install wget
+brew install jsonpp 
 
 # Install PHP packages
 echo "  + Installing PHP packages"
