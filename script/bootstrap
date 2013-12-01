@@ -16,7 +16,7 @@ else
 fi
 
 # Install Homebrew packages
-echo "  + Installing Homebrew packages"
+echo "  + Installing Homebrew packages..."
 brew install git
 brew install bash-completion
 brew install rbenv
@@ -33,7 +33,7 @@ brew install jsonpp
 brew install dos2unix
 
 # Install PHP packages
-echo "  + Installing PHP packages"
+echo "  + Installing PHP packages..."
 #brew tap josegonzalez/php
 #brew tap homebrew/dupes
 brew install php54 --with-pgsql
@@ -42,7 +42,7 @@ brew install phpunit
 brew install composer
 
 # Set up symlinks
-echo "  + Setting up symlinks"
+echo "  + Setting up symlinks..."
 rake
 
 echo ""
