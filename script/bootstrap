@@ -28,6 +28,7 @@ brew install ag
 brew install hub 
 brew install macvim
 brew install node
+brew install wget
 
 # Install PHP packages
 echo "  + Installing PHP packages"
