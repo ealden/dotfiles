@@ -31,6 +31,7 @@ brew install node
 brew install wget
 brew install jsonpp 
 brew install dos2unix
+brew install bats
 
 # Install PHP packages
 echo "  + Installing PHP packages..."
