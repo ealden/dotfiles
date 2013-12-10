@@ -33,6 +33,10 @@ brew install jsonpp
 brew install dos2unix
 brew install bats
 
+brew install polipo
+ln -sfv /usr/local/opt/polipo/*.plist ~/Library/LaunchAgents
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.polipo.plist
+
 # Install PHP packages
 echo "  + Installing PHP packages..."
 #brew tap josegonzalez/php
