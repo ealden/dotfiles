@@ -1,0 +1,2 @@
+proxyAddress = "::0"
+logFile = "/usr/local/var/log/polipo.log"
