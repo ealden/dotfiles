@@ -16,7 +16,6 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
 export GROOVY_HOME="$(brew --prefix groovy)/libexec"
-export PATH="$(brew --prefix josegonzalez/php/php54)/bin:$PATH"
 
 export ANDROID_HOME="/usr/local/android-sdk-macosx"
 export PATH="$ANDROID_HOME/tools:$PATH"
