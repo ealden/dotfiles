@@ -33,19 +33,6 @@ brew install jsonpp
 brew install dos2unix
 brew install bats
 
-brew install polipo
-ln -sfv /usr/local/opt/polipo/*.plist ~/Library/LaunchAgents
-launchctl load ~/Library/LaunchAgents/homebrew.mxcl.polipo.plist
-
-# Install PHP packages
-echo "  + Installing PHP packages..."
-#brew tap josegonzalez/php
-#brew tap homebrew/dupes
-brew install php54 --with-pgsql
-brew install php54-mcrypt
-brew install phpunit
-brew install composer
-
 # Set up symlinks
 echo "  + Setting up symlinks..."
 rake
