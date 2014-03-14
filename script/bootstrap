@@ -34,6 +34,10 @@ brew install dos2unix
 brew install bats
 brew install libyaml
 
+brew install redis
+ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
+
 # Set up symlinks
 echo "  + Setting up symlinks..."
 rake
