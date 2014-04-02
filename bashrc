@@ -20,3 +20,5 @@ export GROOVY_HOME="$(brew --prefix groovy)/libexec"
 export ANDROID_HOME="/usr/local/android-sdk-macosx"
 export PATH="$ANDROID_HOME/tools:$PATH"
 export PATH="$ANDROID_HOME/platform-tools:$PATH"
+
+export BUNDLE_JOBS=4
