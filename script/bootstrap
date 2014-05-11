@@ -32,7 +32,6 @@ brew install wget
 brew install jsonpp 
 brew install dos2unix
 brew install bats
-brew install libyaml
 
 brew install redis
 ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
