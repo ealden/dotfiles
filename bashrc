@@ -23,3 +23,9 @@ export PATH="$ANDROID_HOME/platform-tools:$PATH"
 
 export BUNDLE_JOBS=4
 export SECRET_KEY_BASE=87b8f5dcc5ead0f43a1d31728e420d05503277424716b81255555a2123fc0438695d6ec3f0498906d8b5ca9fb8f39b2dc2623c97d269c07b4550cddda77b5c1b
+
+export GOPATH=$HOME/code/go
+export PATH=$PATH:$GOPATH/bin
+
+export GOROOT="$(brew --prefix go)/libexec"
+export PATH=$PATH:$GOROOT/bin
