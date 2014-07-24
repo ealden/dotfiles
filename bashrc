@@ -29,3 +29,6 @@ export PATH=$PATH:$GOPATH/bin
 
 export GOROOT="$(brew --prefix go)/libexec"
 export PATH=$PATH:$GOROOT/bin
+
+export QT5_HOME="$(brew --prefix qt5)"
+export PATH=$PATH:$QT5_HOME/bin
