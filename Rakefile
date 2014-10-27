@@ -7,4 +7,4 @@ task :setup do
   end
 end
 
-task :default => :setup
+task default: :setup
