@@ -1,5 +1,5 @@
 task :setup do
-  ['bashrc', 'bash_profile', 'gitconfig', 'polipo', 'tmux.conf'].each do |file|
+  ['bashrc', 'bash_profile', 'gitconfig', 'tmux.conf'].each do |file|
     symlink = File.expand_path "~/.#{file}"
     dotfile = File.expand_path file
 
