@@ -38,6 +38,7 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
 
 brew install hg
 brew install tmux
+brew install reattach-to-user-namespace
 
 # Set up symlinks
 echo "  + Setting up symlinks..."
