@@ -26,7 +26,6 @@ brew install pyenv
 brew install postgresql
 brew install ag
 brew install hub 
-brew install macvim
 brew install node
 brew install wget
 brew install jsonpp 
