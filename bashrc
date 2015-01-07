@@ -32,3 +32,10 @@ export PATH=$PATH:$GOROOT/bin
 
 export QT5_HOME="$(brew --prefix qt5)"
 export PATH=$PATH:$QT5_HOME/bin
+
+alias ga="git add"
+alias gc="git commit"
+alias gp="git push"
+alias gl="git pull"
+alias gd="git diff"
+alias gst="git status"
