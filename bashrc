@@ -45,3 +45,5 @@ alias gl='git pull'
 alias got='git '
 alias get='git '
 alias gst='git status'
+
+source dnvm.sh
