@@ -9,7 +9,7 @@ echo ""
 # Check if Homebrew is present
 if test ! $(which brew); then
   echo "  x You need to install Homebrew:"
-  echo "    ruby -e \"\$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)\""
+  echo "    ruby -e \"\$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)\""
   exit
 else
   echo "  + Homebrew found."
