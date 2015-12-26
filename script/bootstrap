@@ -25,6 +25,7 @@ brew install ag
 brew install wget
 brew install jsonpp 
 brew install dos2unix
+brew install node
 
 brew install postgresql
 ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
