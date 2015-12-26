@@ -46,6 +46,6 @@ alias got='git '
 alias get='git '
 alias gst='git status'
 
-# ASP.NET 5
-source dnvm.sh
+# .NET
+[ -s "$HOME/.dnx/dnvm/dnvm.sh" ] && . "$HOME/.dnx/dnvm/dnvm.sh"
 export MONO_MANAGED_WATCHER=disabled
