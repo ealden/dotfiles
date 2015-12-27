@@ -15,9 +15,13 @@ export EDITOR=vim
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
+# Ruby
 export BUNDLE_JOBS=4
-export SECRET_KEY_BASE=87b8f5dcc5ead0f43a1d31728e420d05503277424716b81255555a2123fc0438695d6ec3f0498906d8b5ca9fb8f39b2dc2623c97d269c07b4550cddda77b5c1b
+export SECRET_KEY_BASE=secret
 
+alias r='rails '
+
+# Git
 alias gs='git status '
 alias ga='git add '
 alias gb='git branch '
@@ -26,7 +30,6 @@ alias gd='git diff'
 alias go='git checkout '
 alias gp='git push'
 alias gl='git pull'
-
 alias got='git '
 alias get='git '
 alias gst='git status'
