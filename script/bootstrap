@@ -17,6 +17,7 @@ fi
 
 # Install Homebrew packages
 echo "  + Installing Homebrew packages..."
+brew install vim
 brew install git
 brew install bash-completion
 brew install rbenv
