@@ -20,6 +20,7 @@ export BUNDLE_JOBS=4
 export SECRET_KEY_BASE=secret
 
 alias r='rails '
+alias s='rails s'
 
 # Git
 alias gs='git status '
