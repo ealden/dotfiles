@@ -38,3 +38,6 @@ alias gst='git status'
 # .NET
 [ -s "$HOME/.dnx/dnvm/dnvm.sh" ] && . "$HOME/.dnx/dnvm/dnvm.sh"
 export MONO_MANAGED_WATCHER=disabled
+
+# Docker
+eval $(docker-machine env)
