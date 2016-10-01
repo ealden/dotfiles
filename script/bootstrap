@@ -29,11 +29,13 @@ brew install dos2unix
 brew install node
 brew install postgresql
 brew install redis
+brew install docker-machine
 
 brew linkapps
 
 brew services start postgresql
 brew services start redis
+brew services start docker-machine
 
 # Set up symlinks
 echo "  + Setting up symlinks..."
