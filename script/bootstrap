@@ -27,16 +27,13 @@ brew install wget
 brew install jsonpp 
 brew install dos2unix
 brew install node
-
 brew install postgresql
-ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
-launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
-
 brew install redis
-ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
-launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
 
 brew linkapps
+
+brew services start postgresql
+brew services start redis
 
 # Set up symlinks
 echo "  + Setting up symlinks..."
