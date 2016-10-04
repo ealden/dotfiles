@@ -37,6 +37,7 @@ brew linkapps
 
 brew services start postgresql
 brew services start redis
+brew services start mysql
 
 # Set up symlinks
 echo "  + Setting up symlinks..."
