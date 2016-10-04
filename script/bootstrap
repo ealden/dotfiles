@@ -30,6 +30,7 @@ brew install node
 brew install postgresql
 brew install redis
 brew install mpv --with-bundle
+brew install imagemagick
 
 brew linkapps
 
