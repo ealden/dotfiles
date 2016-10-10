@@ -17,6 +17,9 @@ fi
 
 # Install Homebrew packages
 echo "  + Installing Homebrew packages..."
+brew update
+brew upgrade
+
 brew install vim
 brew install git
 brew install bash-completion
@@ -32,6 +35,7 @@ brew install redis
 brew install mpv --with-bundle
 brew install imagemagick
 brew install mysql
+brew install heroku
 
 brew linkapps
 
