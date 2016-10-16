@@ -36,6 +36,7 @@ brew install mpv --with-bundle
 brew install imagemagick
 brew install mysql
 brew install heroku
+brew install maven
 
 brew linkapps
 
