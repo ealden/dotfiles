@@ -47,6 +47,8 @@ brew services start redis
 brew services start mysql
 brew services start zookeeper
 
+brew cleanup
+
 # Set up symlinks
 echo "  + Setting up symlinks..."
 rake
