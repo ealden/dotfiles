@@ -38,12 +38,14 @@ brew install mysql
 brew install heroku
 brew install maven
 brew install gradle
+brew install kafka
 
 brew linkapps
 
 brew services start postgresql
 brew services start redis
 brew services start mysql
+brew services start zookeeper
 
 # Set up symlinks
 echo "  + Setting up symlinks..."
