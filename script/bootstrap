@@ -44,8 +44,6 @@ brew linkapps
 
 brew services start postgresql
 brew services start redis
-brew services start mysql
-brew services start zookeeper
 
 brew cleanup
 
