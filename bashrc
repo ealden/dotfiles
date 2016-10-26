@@ -36,6 +36,10 @@ alias got='git '
 alias get='git '
 alias gst='git status'
 
+# Services
+alias pgstart='brew services start postgresql'
+alias pgstop='brew services stop postgresql'
+
 # .NET
 [ -s "$HOME/.dnx/dnvm/dnvm.sh" ] && . "$HOME/.dnx/dnvm/dnvm.sh"
 export MONO_MANAGED_WATCHER=disabled
