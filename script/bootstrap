@@ -36,8 +36,10 @@ brew install mpv --with-bundle
 brew install imagemagick
 brew install mysql
 brew install heroku
-brew install maven
+
+brew cask install java
 brew install gradle
+brew install maven
 brew install kafka
 
 brew linkapps
