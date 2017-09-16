@@ -37,11 +37,6 @@ brew install imagemagick
 brew install mysql
 brew install heroku
 
-brew cask install java
-brew install gradle
-brew install maven
-brew install kafka
-
 brew linkapps
 
 brew services start postgresql
