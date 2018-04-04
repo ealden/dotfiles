@@ -32,10 +32,8 @@ brew install dos2unix
 brew install node
 brew install postgresql
 brew install redis
-brew install mpv --with-bundle
 brew install imagemagick
 brew install mysql
-brew install heroku
 brew install pyenv
 
 brew services start postgresql
