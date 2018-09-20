@@ -15,6 +15,12 @@ else
   echo "  + Homebrew found."
 fi
 
+# Set up symlinks
+echo "  + Setting up symlinks..."
+ln -fs `pwd`/bashrc ~/.bashrc
+ln -fs `pwd`/bash_profile ~/.bash_profile
+ln -fs `pwd`/gitconfig ~/.gitconfig
+
 # Install Homebrew packages
 echo "  + Installing Homebrew packages..."
 brew update
@@ -27,7 +33,7 @@ brew install rbenv
 brew install ruby-build
 brew install ag
 brew install wget
-brew install jsonpp 
+brew install jsonpp
 brew install dos2unix
 brew install node
 brew install postgresql
@@ -39,12 +45,6 @@ brew install pyenv
 brew services start postgresql
 brew services start redis
 brew services start mysql
-
-brew cleanup
-
-# Set up symlinks
-echo "  + Setting up symlinks..."
-rake
 
 # Install Homebrew casks
 echo "  + Installing Homebrew casks..."
