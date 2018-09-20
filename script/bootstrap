@@ -41,6 +41,7 @@ brew install redis
 brew install imagemagick
 brew install mysql
 brew install pyenv
+brew install libsodium
 
 brew services start postgresql
 brew services start redis
