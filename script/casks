@@ -1,0 +1,37 @@
+#!/bin/sh
+
+set -e
+
+echo ""
+echo "  Ealden's Cask Config"
+echo ""
+
+# Check if Homebrew is present
+if test ! $(which brew); then
+  echo "  x You need to install Homebrew:"
+  echo "    ruby -e \"\$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)\""
+  exit
+else
+  echo "  + Homebrew found."
+fi
+
+# Install Homebrew casks
+echo "  + Installing Homebrew casks..."
+brew cask install battle-net
+brew cask install dropbox
+brew cask install firefox
+brew cask install google-chrome
+brew cask install handbrake
+brew cask install intellij-idea
+brew cask install kindle
+brew cask install parallels
+brew cask install slack
+brew cask install skype
+brew cask install sourcetree
+brew cask install steam
+brew cask install visual-studio-code
+
+brew cleanup
+
+echo ""
+echo "  We're ready to rock!"
