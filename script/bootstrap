@@ -43,10 +43,12 @@ brew install mysql
 brew install pyenv
 brew install libsodium
 brew install yarn
+brew install nginx
 
 brew services start postgresql
 brew services start redis
 brew services start mysql
+brew services start nginx
 
 brew cleanup
 
