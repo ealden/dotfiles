@@ -20,6 +20,7 @@ echo "  + Setting up symlinks..."
 ln -fs `pwd`/bashrc ~/.bashrc
 ln -fs `pwd`/bash_profile ~/.bash_profile
 ln -fs `pwd`/gitconfig ~/.gitconfig
+ln -fs `pwd`/ssh/config ~/.ssh/config
 
 # Install Homebrew packages
 echo "  + Installing Homebrew packages..."
