@@ -35,7 +35,3 @@ alias gl='git pull'
 alias got='git '
 alias get='git '
 alias gst='git status'
-
-# .NET
-[ -s "$HOME/.dnx/dnvm/dnvm.sh" ] && . "$HOME/.dnx/dnvm/dnvm.sh"
-export MONO_MANAGED_WATCHER=disabled
