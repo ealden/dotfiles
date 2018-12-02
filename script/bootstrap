@@ -40,7 +40,7 @@ brew install node
 brew install postgresql
 brew install redis
 brew install imagemagick
-brew install mysql
+brew install mysql@5.7
 brew install pyenv
 brew install libsodium
 brew install yarn
@@ -48,7 +48,7 @@ brew install nginx
 
 brew services start postgresql
 brew services start redis
-brew services start mysql
+brew services start mysql@5.7
 brew services start nginx
 
 brew cleanup
