@@ -51,6 +51,8 @@ brew services start redis
 brew services start mysql@5.7
 brew services start nginx
 
+brew link --force mysql@5.7
+
 brew cleanup
 
 echo ""
