@@ -21,7 +21,7 @@ export SECRET_KEY_BASE=secret
 
 alias r='rails '
 alias s='rails s'
-alias rk='rake'
+alias rk='rails cucumber test'
 
 # Git
 alias gs='git status '
