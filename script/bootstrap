@@ -30,28 +30,14 @@ brew upgrade
 brew install vim
 brew install git
 brew install bash-completion
+brew install wget
+brew install ag
+brew install jsonpp
 brew install rbenv
 brew install ruby-build
-brew install ag
-brew install wget
-brew install jsonpp
-brew install dos2unix
-brew install node
-brew install postgresql
-brew install redis
-brew install imagemagick
-brew install mysql@5.7
 brew install pyenv
-brew install libsodium
+brew install node
 brew install yarn
-brew install nginx
-
-brew services start postgresql
-brew services start redis
-brew services start mysql@5.7
-brew services start nginx
-
-brew link --force mysql@5.7
 
 brew cleanup
 
