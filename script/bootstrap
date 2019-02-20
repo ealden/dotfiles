@@ -27,6 +27,9 @@ echo "  + Installing Homebrew packages..."
 brew update
 brew upgrade
 
+brew tap beeftornado/rmtree 
+brew install brew-rmtree
+
 brew install vim
 brew install git
 brew install bash-completion
