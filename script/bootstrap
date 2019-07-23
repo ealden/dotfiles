@@ -38,6 +38,7 @@ brew install ag
 brew install jsonpp
 brew install rbenv
 brew install ruby-build
+brew install libsodium
 brew install pyenv
 brew install node
 brew install yarn
