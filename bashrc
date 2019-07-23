@@ -2,6 +2,7 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
 
+export LC_ALL=en_US.UTF-8
 export PS1='\w$(__git_ps1 " (%s)")\$ '
 
 alias ls='ls -hFG'
