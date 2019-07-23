@@ -1,5 +1,5 @@
 [user]
-	name = Ealden Esto E. Escañan
+	name = Ealden Esto E. Escañan
 	email = ealden@escanan.com
 [credential]
 	helper = osxkeychain
@@ -27,3 +27,7 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[core]
+	excludesfile = /Users/ealden/.gitignore_global
+[commit]
+	template = /Users/ealden/.stCommitMsg
