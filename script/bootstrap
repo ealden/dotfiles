@@ -43,6 +43,8 @@ brew install pyenv
 brew install node
 brew install yarn
 
+brew cask install visual-studio-code
+
 brew cleanup
 
 echo ""
