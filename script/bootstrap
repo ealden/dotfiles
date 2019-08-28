@@ -6,13 +6,40 @@ echo ""
 echo "  Ealden's Shell Config"
 echo ""
 
-# Check if Homebrew is present
-if test ! $(which brew); then
-  echo "  x You need to install Homebrew:"
-  echo "    ruby -e \"\$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)\""
-  exit
-else
-  echo "  + Homebrew found."
+if [[ $OSTYPE == "darwin"* ]]; then
+  # Check if Homebrew is present
+  if test ! $(which brew); then
+    echo "  x You need to install Homebrew:"
+    echo "    ruby -e \"\$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)\""
+    exit
+  else
+    echo "  + Homebrew found."
+  fi
+
+  # Install Homebrew packages on macOS
+  echo "  + Installing Homebrew packages..."
+  brew update
+  brew upgrade
+
+  brew tap beeftornado/rmtree
+  brew install brew-rmtree
+
+  brew install vim
+  brew install git
+  brew install bash-completion
+  brew install wget
+  brew install ag
+  brew install jsonpp
+  brew install rbenv
+  brew install ruby-build
+  brew install libsodium
+  brew install pyenv
+  brew install node
+  brew install yarn
+
+  brew cask install visual-studio-code
+
+  brew cleanup
 fi
 
 # Set up symlinks
@@ -21,31 +48,6 @@ ln -fs `pwd`/bashrc ~/.bashrc
 ln -fs `pwd`/bash_profile ~/.bash_profile
 ln -fs `pwd`/gitconfig ~/.gitconfig
 ln -fs `pwd`/ssh/config ~/.ssh/config
-
-# Install Homebrew packages
-echo "  + Installing Homebrew packages..."
-brew update
-brew upgrade
-
-brew tap beeftornado/rmtree 
-brew install brew-rmtree
-
-brew install vim
-brew install git
-brew install bash-completion
-brew install wget
-brew install ag
-brew install jsonpp
-brew install rbenv
-brew install ruby-build
-brew install libsodium
-brew install pyenv
-brew install node
-brew install yarn
-
-brew cask install visual-studio-code
-
-brew cleanup
 
 echo ""
 echo "  We're ready to rock!"
