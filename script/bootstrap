@@ -26,7 +26,7 @@ if [[ $OSTYPE == "darwin"* ]]; then
 
   brew install vim
   brew install git
-  brew install bash-completion
+  brew install zsh-completions
   brew install wget
   brew install ag
   brew install jsonpp
@@ -44,8 +44,8 @@ fi
 
 # Set up symlinks
 echo "  + Setting up symlinks..."
-ln -fs `pwd`/bashrc ~/.bashrc
-ln -fs `pwd`/bash_profile ~/.bash_profile
+ln -fs `pwd`/git-prompt.sh ~/.git-prompt.sh
+ln -fs `pwd`/zshrc ~/.zshrc
 ln -fs `pwd`/gitconfig ~/.gitconfig
 ln -fs `pwd`/ssh/config ~/.ssh/config
 

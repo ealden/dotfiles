@@ -1,30 +1,26 @@
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-  . $(brew --prefix)/etc/bash_completion
-fi
+fpath=(/usr/local/share/zsh-completions $fpath)
+
+source ~/.git-prompt.sh
+
+setopt PROMPT_SUBST ; PS1='%~$(__git_ps1 " (%s)")\$ '
 
 export LC_ALL=en_US.UTF-8
-export PS1='\w$(__git_ps1 " (%s)")\$ '
-
-alias ls='ls -hFG'
-alias ll='ls -l'
-
-set -o emacs 
-
 export PATH=/usr/local/bin:$PATH
 export EDITOR=vim
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
-# Ruby
 export BUNDLE_JOBS=4
 export SECRET_KEY_BASE=secret
+
+alias ls='ls -hFG'
+alias ll='ls -l'
 
 alias r='rails '
 alias s='rails s'
 alias rk='rails cucumber spec'
 
-# Git
 alias gs='git status '
 alias ga='git add '
 alias gb='git branch '
