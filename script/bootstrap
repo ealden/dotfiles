@@ -37,8 +37,6 @@ if [[ $OSTYPE == "darwin"* ]]; then
   brew install node
   brew install yarn
 
-  brew cask install visual-studio-code
-
   brew cleanup
 fi
 
