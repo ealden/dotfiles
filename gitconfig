@@ -2,7 +2,7 @@
 	name = Ealden Esto E. Escañan
 	email = ealden@escanan.com
 [credential]
-	helper = osxkeychain
+	helper = store
 [color]
 	ui = true
 [pull]
