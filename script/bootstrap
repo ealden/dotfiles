@@ -21,9 +21,6 @@ if [[ $OSTYPE == "darwin"* ]]; then
   brew update
   brew upgrade
 
-  brew tap beeftornado/rmtree
-  brew install brew-rmtree
-
   brew install vim
   brew install git
   brew install zsh-completions
