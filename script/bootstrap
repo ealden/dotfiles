@@ -31,8 +31,7 @@ if [[ $OSTYPE == "darwin"* ]]; then
   brew install ruby-build
   brew install libsodium
   brew install pyenv
-  brew install node
-  brew install yarn
+  brew install nvm
 
   brew cleanup
 fi
