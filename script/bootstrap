@@ -6,37 +6,26 @@ echo ""
 echo "  Ealden's Shell Config"
 echo ""
 
-if [[ $OSTYPE == "darwin"* ]]; then
-  # Check if Homebrew is present
-  if test ! $(which brew); then
-    echo "  x You need to install Homebrew:"
-    echo "    ruby -e \"\$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)\""
-    exit
-  else
-    echo "  + Homebrew found."
-  fi
-
-  # Install Homebrew packages on macOS
-  echo "  + Installing Homebrew packages..."
-  brew update
-  brew upgrade
-
-  brew install vim
-  brew install git
-  brew install zsh-completions
-  brew install wget
-  brew install ag
-  brew install jsonpp
-  brew install rbenv
-  brew install ruby-build
-  brew install libsodium
-  brew install pyenv
-  brew install nvm
-
-  brew cleanup
+if test ! $(which brew); then
+  echo "  x You need to install Homebrew:"
+  echo "    ruby -e \"\$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)\""
+  exit
+else
+  echo "  + Homebrew found."
 fi
 
-# Set up symlinks
+echo "  + Installing Homebrew packages..."
+brew update
+brew upgrade
+
+brew install vim
+brew install git
+brew install zsh-completions
+brew install wget
+brew install ag
+
+brew cleanup
+
 echo "  + Setting up symlinks..."
 ln -fs `pwd`/git-prompt.sh ~/.git-prompt.sh
 ln -fs `pwd`/zshrc ~/.zshrc
