@@ -32,6 +32,8 @@ ln -fs `pwd`/zshrc ~/.zshrc
 ln -fs `pwd`/gitconfig ~/.gitconfig
 mkdir -p ~/.ssh
 ln -fs `pwd`/ssh/config ~/.ssh/config
+mkdir -p ~/.bundle
+ln -fs `pwd`/bundle/config ~/.bundle/config
 
 echo ""
 echo "  We're ready to rock!"
