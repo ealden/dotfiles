@@ -5,7 +5,6 @@ source ~/.git-prompt.sh
 setopt PROMPT_SUBST ; PS1='%~$(__git_ps1 " (%s)")\$ '
 
 export LC_ALL=en_US.UTF-8
-export PATH=/usr/local/bin:$PATH
 export EDITOR=vim
 
 alias ls='ls -hFG'
