@@ -8,7 +8,7 @@ echo ""
 
 if test ! $(which brew); then
   echo "  x You need to install Homebrew:"
-  echo "    ruby -e \"\$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)\""
+  echo "    /bin/bash -c \"\$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)\""
   exit
 else
   echo "  + Homebrew found."
