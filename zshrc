@@ -30,3 +30,5 @@ export SECRET_KEY_BASE=secret
 alias r='rails '
 alias s='rails s'
 alias rk='rails spec cucumber'
+
+alias gk='./gradlew test cucumber'
