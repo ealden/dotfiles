@@ -29,4 +29,4 @@ export SECRET_KEY_BASE=secret
 
 alias r='rails '
 alias s='rails s'
-alias rk='rails cucumber spec'
+alias rk='rails spec cucumber'
