@@ -32,3 +32,5 @@ alias s='rails s'
 alias rk='rails spec cucumber'
 
 alias gk='./gradlew test cucumber'
+
+alias jk='./node_modules/.bin/cucumber-js'
