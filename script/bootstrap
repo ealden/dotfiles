@@ -23,6 +23,7 @@ brew install git
 brew install zsh-completions
 brew install wget
 brew install ag
+brew install asdf
 
 brew cleanup
 
@@ -30,8 +31,11 @@ echo "  + Setting up symlinks..."
 ln -fs `pwd`/git-prompt.sh ~/.git-prompt.sh
 ln -fs `pwd`/zshrc ~/.zshrc
 ln -fs `pwd`/gitconfig ~/.gitconfig
+ln -fs `pwd`/asdfrc ~/.asdfrc
+
 mkdir -p ~/.ssh
 ln -fs `pwd`/ssh/config ~/.ssh/config
+
 mkdir -p ~/.bundle
 ln -fs `pwd`/bundle/config ~/.bundle/config
 
