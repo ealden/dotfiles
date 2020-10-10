@@ -28,6 +28,7 @@ alias gst='git status'
 
 export BUNDLE_JOBS=4
 export SECRET_KEY_BASE=secret
+export CUCUMBER_PUBLISH_QUIET=true
 
 alias r='rails '
 alias s='rails s'
