@@ -30,9 +30,9 @@ export BUNDLE_JOBS=4
 export SECRET_KEY_BASE=secret
 export CUCUMBER_PUBLISH_QUIET=true
 
-alias r='rails '
-alias s='rails s'
-alias rk='rails spec cucumber'
+alias r='bundle exec rails '
+alias s='bundle exec rails s'
+alias rk='bundle exec rails spec cucumber'
 
 alias gk='./gradlew test cucumber'
 
