@@ -29,5 +29,3 @@
 	trustExitCode = true
 [core]
 	excludesfile = /Users/ealden/.gitignore_global
-[commit]
-	template = /Users/ealden/.stCommitMsg
