@@ -15,7 +15,6 @@ else
 fi
 
 echo "  + Installing Homebrew packages..."
-brew update
 brew upgrade
 
 brew install vim
