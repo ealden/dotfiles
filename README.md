@@ -1,4 +1,4 @@
 dotfiles
 ========
 
-Configuration
+Run `./script/bootstrap` to setup!
