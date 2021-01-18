@@ -17,7 +17,6 @@ fi
 echo "  + Installing Homebrew packages..."
 brew upgrade
 
-brew install vim
 brew install git
 brew install zsh-completions
 brew install wget
