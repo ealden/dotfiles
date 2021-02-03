@@ -11,6 +11,8 @@ export PATH=/usr/local/sbin:$PATH
 
 if [[ -f /usr/local/opt/asdf/asdf.sh ]]; then
   source /usr/local/opt/asdf/asdf.sh
+
+  export VIM="$(asdf where vim)/share/vim"
 fi
 
 alias ls='ls -hFG'
