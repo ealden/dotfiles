@@ -5,5 +5,5 @@ dotnet-core 5.0.101
 java adoptopenjdk-11.0.10+9
 erlang 23.2.1
 elixir 1.11.2-otp-23
-gradle 6.8.1
+gradle 6.8.2
 python 3.9.1
