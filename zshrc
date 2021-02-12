@@ -33,7 +33,6 @@ alias gst='git status'
 export BUNDLE_JOBS=4
 export SECRET_KEY_BASE=secret
 export CUCUMBER_PUBLISH_QUIET=true
-export SELENIUM_DRIVER=selenium_chrome_headless
 
 alias r='bundle exec rails '
 alias s='bundle exec rails s'
