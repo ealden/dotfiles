@@ -11,6 +11,7 @@ export PATH=/usr/local/sbin:$PATH
 
 if [[ -f /usr/local/opt/asdf/asdf.sh ]]; then
   source /usr/local/opt/asdf/asdf.sh
+  source $HOME/.asdf/plugins/dotnet-core/set-dotnet-home.zsh
 
   export VIM="$(asdf where vim)/share/vim"
 fi
