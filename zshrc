@@ -18,6 +18,10 @@ if [[ -f /usr/local/opt/asdf/asdf.sh ]]; then
   export PATH=$PATH:$(asdf where flutter)/bin
 fi
 
+if [[ -d '/Applications/Visual Studio Code.app' ]]; then
+  export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+fi
+
 alias ls='ls -hFG'
 alias ll='ls -l'
 
@@ -44,7 +48,3 @@ alias rk='bundle exec rails spec cucumber'
 alias gk='./gradlew test cucumber'
 
 alias jk='./node_modules/.bin/cucumber-js'
-
-if [[ -d '/Applications/Visual Studio Code.app' ]]; then
-  export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-fi
