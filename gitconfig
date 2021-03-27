@@ -13,3 +13,5 @@
 	protocol = https
 [merge]
 	ff = false
+[init]
+	defaultBranch = master
