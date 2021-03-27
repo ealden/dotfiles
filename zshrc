@@ -19,7 +19,7 @@ if [[ -f /usr/local/opt/asdf/asdf.sh ]]; then
 fi
 
 if [[ -d '/Applications/Visual Studio Code.app' ]]; then
-  export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+  export PATH=$PATH:'/Applications/Visual Studio Code.app/Contents/Resources/app/bin'
 fi
 
 alias ls='ls -hFG'
