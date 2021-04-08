@@ -16,6 +16,9 @@ if [[ -f /usr/local/opt/asdf/asdf.sh ]]; then
   export VIM=$(asdf where vim)/share/vim
 
   export PATH=$PATH:$(asdf where flutter)/bin
+
+  export PATH=$PATH:$(asdf where rust)/bin
+  source $(asdf where rust)/env
 fi
 
 if [[ -d '/Applications/Visual Studio Code.app' ]]; then
