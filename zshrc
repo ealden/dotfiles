@@ -48,6 +48,7 @@ alias r='bundle exec rails '
 alias s='bundle exec rails s'
 alias rk='bundle exec rails spec cucumber'
 
+alias gr='./gradlew clean run'
 alias gk='./gradlew test cucumber'
 
 alias jk='./node_modules/.bin/cucumber-js'
