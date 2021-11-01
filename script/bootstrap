@@ -15,12 +15,7 @@ else
 fi
 
 echo "  + Installing Homebrew packages..."
-brew install git
-brew install zsh-completions
-brew install wget
-brew install ag
-brew install gpg
-brew install asdf
+brew bundle
 
 echo "  + Setting up symlinks..."
 mkdir -p ~/.ssh
