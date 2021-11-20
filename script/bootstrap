@@ -6,6 +6,9 @@ echo ""
 echo "  Ealden's Shell Config"
 echo ""
 
+ln -fs `pwd`/zshrc-setup ~/.zshrc
+source ~/.zshrc
+
 if test ! $(which brew); then
   echo "  x You need to install Homebrew:"
   echo "    /bin/bash -c \"\$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)\""
