@@ -1,10 +1,10 @@
 ruby 3.0.2
 nodejs lts
-dotnet-core 5.0.103
 java temurin-11.0.13+8
+gradle 7.3
+dotnet-core 5.0.103
 erlang 23.2.6
 elixir 1.11.3-otp-23
-gradle 7.3
 python 3.9.2
 flutter 2.0.3
 rust 1.51.0
