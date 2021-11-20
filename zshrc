@@ -12,14 +12,6 @@ export PATH=/opt/homebrew/bin:$PATH
 
 if [[ -f /opt/homebrew/opt/asdf/asdf.sh ]]; then
   source /opt/homebrew/opt/asdf/asdf.sh
-  source $HOME/.asdf/plugins/dotnet-core/set-dotnet-home.zsh
-
-  export VIM=$(asdf where vim)/share/vim
-
-  export PATH=$PATH:$(asdf where flutter)/bin
-
-  export PATH=$PATH:$(asdf where rust)/bin
-  source $(asdf where rust)/env
 fi
 
 if [[ -d '/Applications/Visual Studio Code.app' ]]; then
