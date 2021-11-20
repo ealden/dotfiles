@@ -10,8 +10,8 @@ export EDITOR=vim
 export PATH=/usr/local/sbin:$PATH
 export PATH=/opt/homebrew/bin:$PATH
 
-if [[ -f /usr/local/opt/asdf/asdf.sh ]]; then
-  source /usr/local/opt/asdf/asdf.sh
+if [[ -f /opt/homebrew/opt/asdf/asdf.sh ]]; then
+  source /opt/homebrew/opt/asdf/asdf.sh
   source $HOME/.asdf/plugins/dotnet-core/set-dotnet-home.zsh
 
   export VIM=$(asdf where vim)/share/vim
