@@ -8,6 +8,7 @@ export LC_ALL=en_US.UTF-8
 export EDITOR=vim
 
 export PATH=/usr/local/sbin:$PATH
+export PATH=/opt/homebrew/bin:$PATH
 
 if [[ -f /usr/local/opt/asdf/asdf.sh ]]; then
   source /usr/local/opt/asdf/asdf.sh
