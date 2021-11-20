@@ -15,6 +15,7 @@ brew "zsh-completions"
 brew "heroku/brew/heroku"
 
 cask "chromedriver"
+cask "google-chrome"
 
 mas "1Blocker", id: 1365531024
 mas "Developer", id: 640199958
