@@ -27,4 +27,4 @@ mas "Pixelmator Pro", id: 1289583905
 mas "Playgrounds", id: 1496833156
 mas "Slack", id: 803453959
 mas "Tomato 2", id: 1494210770
-mas "Xcode", id: 497799835
+#mas "Xcode", id: 497799835
