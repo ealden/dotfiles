@@ -4,6 +4,7 @@ tap "homebrew/cask"
 tap "homebrew/core"
 
 brew "asdf"
+brew "bash"
 brew "git"
 brew "gnupg"
 brew "mas"
