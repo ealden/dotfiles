@@ -45,4 +45,4 @@ alias gk='./gradlew test cucumber'
 
 alias jk='./node_modules/.bin/cucumber-js'
 
-function sha256sum() { shasum -a 256 "$@" ; } && export -f sha256sum
+alias sha256sum='shasum -a 256'
