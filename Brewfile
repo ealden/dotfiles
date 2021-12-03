@@ -5,6 +5,7 @@ tap "homebrew/core"
 
 brew "asdf"
 brew "bash"
+brew "ffmpeg"
 brew "git"
 brew "gnupg"
 brew "mas"
