@@ -1,4 +1,4 @@
 ruby 3.0.3
 nodejs lts
 java temurin-17.0.1+12
-gradle 7.3
+gradle 7.3.1
