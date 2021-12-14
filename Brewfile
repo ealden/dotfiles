@@ -2,6 +2,7 @@ tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "robotsandpencils/made"
 
 brew "aria2"
 brew "asdf"
@@ -16,6 +17,7 @@ brew "wget"
 brew "youtube-dl"
 brew "zsh-completions"
 brew "heroku/brew/heroku"
+brew "robotsandpencils/made/xcodes"
 
 cask "chromedriver"
 cask "google-chrome"
@@ -31,4 +33,3 @@ mas "Pixelmator Pro", id: 1289583905
 mas "Playgrounds", id: 1496833156
 mas "Slack", id: 803453959
 mas "Tomato 2", id: 1494210770
-#mas "Xcode", id: 497799835
