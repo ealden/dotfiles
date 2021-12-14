@@ -3,6 +3,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 
+brew "aria2"
 brew "asdf"
 brew "bash"
 brew "ffmpeg"
