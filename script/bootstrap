@@ -6,8 +6,7 @@ echo ""
 echo "  Ealden's Shell Config"
 echo ""
 
-ln -fs `pwd`/zshrc-setup ~/.zshrc
-source ~/.zshrc
+export PATH=/opt/homebrew/bin:$PATH
 
 if test ! $(which brew); then
   echo "  x You need to install Homebrew:"
