@@ -32,5 +32,7 @@ ln -fs `pwd`/ssh/config ~/.ssh/config
 mkdir -p ~/.bundle
 ln -fs `pwd`/bundle/config ~/.bundle/config
 
+source ~/.zshrc
+
 echo ""
 echo "  We're ready to rock!"
