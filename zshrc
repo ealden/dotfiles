@@ -10,6 +10,8 @@ export EDITOR=vim
 export PATH=/usr/local/sbin:$PATH
 export PATH=/opt/homebrew/bin:$PATH
 
+export HOMEBREW_NO_ENV_HINTS=true
+
 if [[ -f /opt/homebrew/opt/asdf/asdf.sh ]]; then
   source /opt/homebrew/opt/asdf/asdf.sh
 fi
