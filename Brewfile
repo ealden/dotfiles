@@ -14,7 +14,6 @@ brew "vim"
 brew "wget"
 brew "youtube-dl"
 brew "zsh-completions"
-brew "heroku/brew/heroku"
 brew "robotsandpencils/made/xcodes"
 
 cask "chromedriver"
