@@ -12,7 +12,6 @@ export PATH=/opt/homebrew/bin:$PATH
 
 export HOMEBREW_NO_ENV_HINTS=true
 
-
 if [[ -f /opt/homebrew/opt/asdf/libexec/asdf.sh ]]; then
   source /opt/homebrew/opt/asdf/libexec/asdf.sh
 fi
