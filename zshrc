@@ -11,6 +11,7 @@ export PATH=/usr/local/sbin:$PATH
 export PATH=/opt/homebrew/bin:$PATH
 
 export HOMEBREW_NO_ENV_HINTS=true
+export HOMEBREW_NO_ANALYTICS=1
 
 if [[ -f /opt/homebrew/opt/asdf/libexec/asdf.sh ]]; then
   source /opt/homebrew/opt/asdf/libexec/asdf.sh
