@@ -17,8 +17,8 @@ if [[ -f /opt/homebrew/opt/asdf/libexec/asdf.sh ]]; then
   source /opt/homebrew/opt/asdf/libexec/asdf.sh
 fi
 
-if [[ -d '/Applications/Visual Studio Code.app' ]]; then
-  export PATH=$PATH:'/Applications/Visual Studio Code.app/Contents/Resources/app/bin'
+if [[ -d "$HOME/Applications/Visual Studio Code.app" ]]; then
+  export PATH=$PATH:"$HOME/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 fi
 
 alias ls='ls -hFG'
