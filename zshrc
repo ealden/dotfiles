@@ -52,3 +52,5 @@ alias jk='./node_modules/.bin/cucumber-js'
 alias sha256sum='shasum -a 256'
 
 export DOCKER_HOST=unix://$HOME/.colima/default/docker.sock
+
+export NEXT_TELEMETRY_DISABLED=1
