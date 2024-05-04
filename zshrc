@@ -33,7 +33,6 @@ alias go='git checkout '
 alias gp='git push'
 alias gl='git pull'
 alias got='git '
-alias get='git '
 alias gst='git status'
 
 export SECRET_KEY_BASE=secret
