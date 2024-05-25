@@ -1,4 +1,7 @@
-fpath=(/usr/local/share/zsh-completions $fpath)
+FPATH=/opt/homebrew/share/zsh/site-functions:$FPATH
+
+autoload -Uz compinit
+compinit
 
 source ~/.git-prompt.sh
 
