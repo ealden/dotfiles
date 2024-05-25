@@ -20,7 +20,7 @@ echo "  + Installing Homebrew packages..."
 brew bundle
 
 echo "  + Downloading latest git-prompt.sh..."
-wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
+curl -fsSLO https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
 
 echo "  + Setting up symlinks..."
 ln -fs `pwd`/git-prompt.sh ~/.git-prompt.sh
