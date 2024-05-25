@@ -10,7 +10,6 @@ setopt PROMPT_SUBST ; PS1='%~$(__git_ps1 " (%s)")\$ '
 export LC_ALL=en_US.UTF-8
 export EDITOR=vim
 
-export PATH=/usr/local/sbin:$PATH
 export PATH=/opt/homebrew/bin:$PATH
 
 export HOMEBREW_NO_ENV_HINTS=true
