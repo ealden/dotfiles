@@ -15,11 +15,7 @@ export PATH=/opt/homebrew/bin:$PATH
 export HOMEBREW_NO_ENV_HINTS=true
 export HOMEBREW_NO_ANALYTICS=1
 
-  source /opt/homebrew/opt/asdf/libexec/asdf.sh
-
-if [[ -d "$HOME/Applications/Visual Studio Code.app" ]]; then
-  export PATH=$PATH:"$HOME/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-fi
+source /opt/homebrew/opt/asdf/libexec/asdf.sh
 
 alias ls='ls -hFG'
 alias ll='ls -l'
