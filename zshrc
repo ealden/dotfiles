@@ -55,4 +55,4 @@ alias gt='./gradlew clean test'
 # Node
 export NEXT_TELEMETRY_DISABLED=1
 
-alias jk='./node_modules/.bin/cucumber-js'
+alias nb='npm run build'
