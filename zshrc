@@ -57,4 +57,4 @@ export NEXT_TELEMETRY_DISABLED=1
 
 alias nb='npm run build'
 alias nd='npm run deploy'
-alias nk='npm run test && npm run deploy && bundle exec rails spec cucumber'
+alias nk='npm run spec && npm run deploy && bundle exec rails spec cucumber'
