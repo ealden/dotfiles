@@ -56,4 +56,5 @@ alias gt='./gradlew clean test'
 export NEXT_TELEMETRY_DISABLED=1
 
 alias nb='npm run build'
+alias nd='npm run deploy'
 alias nk='npm run test && npm run build && bundle exec rails spec cucumber'
