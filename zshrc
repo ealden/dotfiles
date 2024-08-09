@@ -1,5 +1,7 @@
 # ZSH
-FPATH=/opt/homebrew/share/zsh/site-functions:$FPATH
+export HOMEBREW_HOME=/opt/homebrew
+
+FPATH=$HOMEBREW_HOME/share/zsh/site-functions:$FPATH
 autoload -Uz compinit
 compinit
 
@@ -14,7 +16,7 @@ alias sha256sum='shasum -a 256'
 alias t='trap -'
 
 # Homebrew
-export PATH=/opt/homebrew/bin:$PATH
+export PATH=$HOMEBREW_HOME/bin:$PATH
 
 export HOMEBREW_NO_ENV_HINTS=true
 export HOMEBREW_NO_ANALYTICS=1
@@ -35,7 +37,7 @@ alias got='git '
 alias gst='git status'
 
 # asdf
-source /opt/homebrew/opt/asdf/libexec/asdf.sh
+source $HOMEBREW_HOME/opt/asdf/libexec/asdf.sh
 
 # Cucumber
 export CUCUMBER_PUBLISH_QUIET=true
