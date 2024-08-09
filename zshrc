@@ -66,7 +66,3 @@ export BUN_INSTALL=$HOME/.bun
 export PATH=$BUN_INSTALL/bin:$PATH
 
 source $BUN_INSTALL/_bun
-
-# Flutter
-export FLUTTER_HOME=$HOME/code/flutter
-export PATH=$FLUTTER_HOME/bin:$PATH
