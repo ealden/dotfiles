@@ -1,6 +1,13 @@
-# ZSH
+# Homebrew
 export HOMEBREW_HOME=/opt/homebrew
+export PATH=$HOMEBREW_HOME/bin:$PATH
 
+export HOMEBREW_NO_ENV_HINTS=true
+export HOMEBREW_NO_ANALYTICS=1
+
+export HOMEBREW_BUNDLE_NO_LOCK=1
+
+# ZSH
 FPATH=$HOMEBREW_HOME/share/zsh/site-functions:$FPATH
 autoload -Uz compinit
 compinit
@@ -14,12 +21,6 @@ alias ll='ls -l'
 alias sha256sum='shasum -a 256'
 
 alias t='trap -'
-
-# Homebrew
-export PATH=$HOMEBREW_HOME/bin:$PATH
-
-export HOMEBREW_NO_ENV_HINTS=true
-export HOMEBREW_NO_ANALYTICS=1
 
 # Git
 source ~/.git-prompt.sh
