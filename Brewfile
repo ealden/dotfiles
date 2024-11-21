@@ -10,3 +10,5 @@ brew "zsh-completions"
 brew "nvm"
 brew "rbenv"
 brew "fvm"
+
+brew "gradle"
