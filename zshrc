@@ -37,10 +37,22 @@ alias gl='git pull'
 alias got='git '
 alias gst='git status'
 
+# Node
+export NVM_DIR=$HOME/.nvm
+
+source $HOMEBREW_HOME/opt/nvm/nvm.sh
+source $HOMEBREW_HOME/opt/nvm/etc/bash_completion.d/nvm
+
+export NEXT_TELEMETRY_DISABLED=1
+
+alias nb='npm run build'
+alias nd='npm run deploy'
+alias nt='npm run spec'
+
 # Cucumber
 export CUCUMBER_PUBLISH_QUIET=true
 
-# Rails
+# Ruby
 export SECRET_KEY_BASE=secret
 
 alias r='bundle exec rails '
@@ -51,13 +63,6 @@ alias rk='bundle exec rails spec cucumber'
 alias gr='./gradlew clean run'
 alias gk='./gradlew clean test cucumber'
 alias gt='./gradlew clean test'
-
-# Node
-export NEXT_TELEMETRY_DISABLED=1
-
-alias nb='npm run build'
-alias nd='npm run deploy'
-alias nt='npm run spec'
 
 # bun
 export BUN_INSTALL=$HOME/.bun
