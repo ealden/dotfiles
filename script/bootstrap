@@ -33,5 +33,8 @@ ln -fs `pwd`/ssh/config ~/.ssh/config
 mkdir -p ~/.bundle
 ln -fs `pwd`/bundle/config ~/.bundle/config
 
+mkdir -p ~/.rbenv
+ln -fs `pwd`/rbenv/version ~/.rbenv/version
+
 echo ""
 echo "  We're ready to rock!"
