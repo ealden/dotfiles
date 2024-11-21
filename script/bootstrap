@@ -23,8 +23,10 @@ echo "  + Downloading latest git-prompt.sh..."
 curl -fsSLO https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
 
 echo "  + Setting up symlinks..."
-ln -fs `pwd`/git-prompt.sh ~/.git-prompt.sh
+ln -fs `pwd`/zprofile ~/.zprofile
 ln -fs `pwd`/zshrc ~/.zshrc
+
+ln -fs `pwd`/git-prompt.sh ~/.git-prompt.sh
 ln -fs `pwd`/gitconfig ~/.gitconfig
 
 mkdir -p ~/.ssh
