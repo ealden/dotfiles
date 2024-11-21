@@ -16,9 +16,6 @@ else
   echo "  + Homebrew found."
 fi
 
-echo "  + Installing Homebrew packages..."
-brew bundle
-
 echo "  + Downloading latest git-prompt.sh..."
 curl -fsSLO https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
 
@@ -41,6 +38,9 @@ ln -fs `pwd`/nvm/alias/default ~/.nvm/alias/default
 
 mkdir -p ~/.rbenv
 ln -fs `pwd`/rbenv/version ~/.rbenv/version
+
+echo "  + Installing Homebrew packages..."
+brew bundle
 
 echo ""
 echo "  We're ready to rock!"
