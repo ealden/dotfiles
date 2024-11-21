@@ -12,3 +12,4 @@ brew "rbenv"
 brew "fvm"
 
 brew "gradle"
+brew "maven"
