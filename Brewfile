@@ -1,5 +1,4 @@
 tap "homebrew/bundle"
-tap "leoafarias/fvm"
 
 brew "git"
 brew "the_silver_searcher"
@@ -9,7 +8,6 @@ brew "zsh-completions"
 
 brew "nvm"
 brew "rbenv"
-brew "fvm"
 
 brew "gradle"
 brew "maven"
