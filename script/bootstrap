@@ -26,8 +26,6 @@ echo "  + Setting up symlinks..."
 ln -fs `pwd`/git-prompt.sh ~/.git-prompt.sh
 ln -fs `pwd`/zshrc ~/.zshrc
 ln -fs `pwd`/gitconfig ~/.gitconfig
-ln -fs `pwd`/asdfrc ~/.asdfrc
-ln -fs `pwd`/tool-versions ~/.tool-versions
 
 mkdir -p ~/.ssh
 ln -fs `pwd`/ssh/config ~/.ssh/config

@@ -36,9 +36,6 @@ alias gl='git pull'
 alias got='git '
 alias gst='git status'
 
-# asdf
-source $HOMEBREW_HOME/opt/asdf/libexec/asdf.sh
-
 # Cucumber
 export CUCUMBER_PUBLISH_QUIET=true
 

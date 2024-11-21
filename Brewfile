@@ -1,7 +1,6 @@
 tap "homebrew/bundle"
 tap "leoafarias/fvm"
 
-brew "asdf"
 brew "git"
 brew "the_silver_searcher"
 brew "vim"
