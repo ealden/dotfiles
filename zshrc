@@ -37,6 +37,9 @@ alias gl='git pull'
 alias got='git '
 alias gst='git status'
 
+# Cucumber
+export CUCUMBER_PUBLISH_QUIET=true
+
 # Node
 export NVM_DIR=$HOME/.nvm
 
@@ -48,9 +51,6 @@ export NEXT_TELEMETRY_DISABLED=1
 alias nb='npm run build'
 alias nd='npm run deploy'
 alias nt='npm run spec'
-
-# Cucumber
-export CUCUMBER_PUBLISH_QUIET=true
 
 # Ruby
 export SECRET_KEY_BASE=secret
