@@ -63,9 +63,3 @@ alias rk='bundle exec rails spec cucumber'
 alias gr='./gradlew clean run'
 alias gk='./gradlew clean test cucumber'
 alias gt='./gradlew clean test'
-
-# bun
-export BUN_INSTALL=$HOME/.bun
-export PATH=$BUN_INSTALL/bin:$PATH
-
-source $BUN_INSTALL/_bun
