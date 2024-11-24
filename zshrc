@@ -7,7 +7,7 @@ export HOMEBREW_NO_ANALYTICS=1
 
 export HOMEBREW_BUNDLE_NO_LOCK=1
 
-# ZSH
+# Zsh
 FPATH=$HOMEBREW_HOME/share/zsh/site-functions:$FPATH
 autoload -Uz compinit
 compinit
