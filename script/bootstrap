@@ -32,11 +32,12 @@ ln -fs `pwd`/ssh/config ~/.ssh/config
 mkdir -p ~/.bundle
 ln -fs `pwd`/bundle/config ~/.bundle/config
 
-mkdir -p ~/.config/mise
-ln -fs `pwd`/mise/config.toml ~/.config/mise/config.toml
-
 echo "  + Installing Homebrew packages..."
 brew bundle
+
+echo "  + Installing Mise tools..."
+mise use -g ruby@3
+mise use -g node@lts
 
 echo ""
 echo "  We're ready to rock!"
