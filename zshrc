@@ -44,11 +44,6 @@ eval "$($HOMEBREW_HOME/opt/mise/bin/mise activate zsh)"
 export CUCUMBER_PUBLISH_QUIET=true
 
 # Node
-export NVM_DIR=$HOME/.nvm
-
-source $HOMEBREW_HOME/opt/nvm/nvm.sh
-source $HOMEBREW_HOME/opt/nvm/etc/bash_completion.d/nvm
-
 export NEXT_TELEMETRY_DISABLED=1
 
 alias nb='npm run build'

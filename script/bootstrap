@@ -32,10 +32,6 @@ ln -fs `pwd`/ssh/config ~/.ssh/config
 mkdir -p ~/.bundle
 ln -fs `pwd`/bundle/config ~/.bundle/config
 
-mkdir -p ~/.nvm
-mkdir -p ~/.nvm/alias
-ln -fs `pwd`/nvm/alias/default ~/.nvm/alias/default
-
 echo "  + Installing Homebrew packages..."
 brew bundle
 
