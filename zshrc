@@ -37,6 +37,9 @@ alias gl='git pull'
 alias got='git '
 alias gst='git status'
 
+# Mise
+eval "$($HOMEBREW_HOME/opt/mise/bin/mise activate zsh)"
+
 # Cucumber
 export CUCUMBER_PUBLISH_QUIET=true
 

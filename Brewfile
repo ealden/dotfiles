@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 
 brew "git"
+brew "mise"
 brew "the_silver_searcher"
 brew "vim"
 brew "wget"
