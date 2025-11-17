@@ -7,5 +7,4 @@ brew "vim"
 brew "wget"
 brew "zsh-completions"
 
-brew "gradle"
 brew "maven"
