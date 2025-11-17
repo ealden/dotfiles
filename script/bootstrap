@@ -32,6 +32,9 @@ ln -fs `pwd`/ssh/config ~/.ssh/config
 mkdir -p ~/.bundle
 ln -fs `pwd`/bundle/config ~/.bundle/config
 
+mkdir -p ~/.config/mise
+ln -fs `pwd`/mise/config.toml ~/.config/mise/config.toml
+
 echo "  + Installing Homebrew packages..."
 brew bundle
 
