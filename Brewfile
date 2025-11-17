@@ -8,7 +8,6 @@ brew "wget"
 brew "zsh-completions"
 
 brew "nvm"
-brew "rbenv"
 
 brew "gradle"
 brew "maven"
