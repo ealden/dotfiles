@@ -20,7 +20,10 @@ alias ll='ls -l'
 
 alias sha256sum='shasum -a 256'
 
-alias t='trap -'
+# WORKAROUND: https://superuser.com/a/1926280
+precmd() {
+  trap - INT
+}
 
 # Git
 source ~/.git-prompt.sh
