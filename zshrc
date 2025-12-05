@@ -59,6 +59,7 @@ export SECRET_KEY_BASE=secret
 alias r='bundle exec rails '
 alias s='bundle exec rails s'
 alias rk='bundle exec rails spec cucumber'
+alias rt='bundle exec rails spec'
 alias rc='bundle exec rails cucumber'
 
 # Gradle
